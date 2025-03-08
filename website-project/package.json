@@ -1,20 +1,23 @@
 {
-  "name": "website-project",
+  "name": "Nexus-Cleaning-services",
   "version": "1.0.0",
   "description": "A website project using Tailwind CSS and Bootstrap for styling.",
   "main": "src/index.html",
   "scripts": {
-    "build": "tailwindcss build src/styles/src/tailwind.css -o dist/tailwind.css",
-    "watch": "tailwindcss build src/styles/tailwind.css -o dist/tailwind.css --watch",
-    "start": "live-server src"
+    "build": "next build",
+    "start": "next start",
+    "watch": "tailwindcss build src/styles/tailwind.css -o dist/tailwind.css --watch"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
   },
-  "author": "Your Name",
+  "author": "Thamsanqa",
   "license": "MIT"
 }
