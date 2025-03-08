@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "public": true,
   "builds": [
-    { "src": "next.config.js", "use": "@vercel/next" }
+    { "src": "src/index.html", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/src/index.html" }
   ]
 }

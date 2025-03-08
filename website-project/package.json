@@ -4,15 +4,11 @@
   "description": "A website project using Tailwind CSS and Bootstrap for styling.",
   "main": "src/index.html",
   "scripts": {
-    "build": "next build",
-    "start": "next start",
-    "watch": "tailwindcss build src/styles/tailwind.css -o dist/tailwind.css --watch"
+    "build": "tailwindcss build src/styles/tailwind.css -o dist/tailwind.css",
+    "start": "live-server src"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
     "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
