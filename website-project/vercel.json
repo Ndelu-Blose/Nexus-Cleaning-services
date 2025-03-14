@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
     {
-      "src": "**/*",
+      "src": "website-project/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -13,7 +12,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "website-project/$1"
     }
   ]
 }
